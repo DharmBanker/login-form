@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+.container{
+    display: flex;
+   
+}
+.image{
+    width: 100%;
+}
+.space-image{
+    width: 40%;
+    height: 100%;
+    position: fixed;
+}
+.text{
+    margin: 0px;
+    color: white;
+    width: 120%;
+    justify-content: center;
+    padding: 50px 30px 0px 0px ;
+    
+}
+.text p {
+    font-size: 30px;
+}
+.form-name{
+    display: flex;
+}
+.input{
+    margin: 12px;
+    font-size: 25px;
+}
+.input input{
+    padding: 4px 100px 4px 10px ;
+   
+    
+}
+.btn{
+    margin: 50px 0px 0px 10px;
+    
+}
+.btn button{
+    padding: 10px 40px 10px 20px;
+    font-size: 30px;
+    border-radius: 8px;
+    color: rgb(223, 11, 223);
+    background-color:rgb(29, 29, 29);
+    border-color: rgb(223, 11, 223);
+}
+input:focus { 
+    outline: none !important;
+    border-color: rgb(223, 11, 223);
+    box-shadow: 0 0 10px rgb(223, 11, 223);
+}
+
